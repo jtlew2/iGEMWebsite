@@ -1283,6 +1283,8 @@ h1, h2, h3, h4, h5, h6, figure {
     text-decoration: none;
     display: block;
     z-index: 2;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 /* Change color of dropdown links on hover */
