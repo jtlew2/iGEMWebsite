@@ -332,10 +332,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header h1 a {
   position: relative;
-  color: black;
+  color: #F38630;
 }
 #fh5co-header h1 a > span {
-  color: #27E1CE;
+  color: #69D2E7;
 }
 #fh5co-header h1 a:hover, #fh5co-header h1 a:active, #fh5co-header h1 a:focus {
   text-decoration: none;
