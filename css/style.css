@@ -468,15 +468,12 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-hero {
   min-height: 700px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
   z-index: 1;
 }
 #fh5co-hero .btn {
   font-size: 24px;
 }
-#fh5co-hero .btn.btn-primary {
-  padding: 14px 30px !important;
-}
+
 #fh5co-hero .flexslider {
   border: none;
   z-index: 1;
@@ -840,8 +837,10 @@ h1, h2, h3, h4, h5, h6, figure {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  padding: 7em 0;
+  padding: 14em 0;
   position: relative;
+  min-height: 700px;
+  z-index: 2;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cta {
@@ -849,19 +848,28 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-cta .overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
   position: absolute;
   z-index: 1;
+  min-height: 700px;
 }
 .fh5co-cta .container {
   position: relative;
   z-index: 2;
 }
-.fh5co-cta p, .fh5co-cta h3 {
+.fh5co-cta p, .fh5co-cta h3, .fh5co-cta h2 {
+  color: #fff;
+}
+
+.fh5co-cta h2 {
+  font-size: 40px;
+}
+
+.fh5co-cta {
   color: #fff;
 }
 .fh5co-cta p:last-child {
@@ -1274,7 +1282,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 2;
+    z-index: 3;
 }
 
 /* Links inside the dropdown */
@@ -1282,7 +1290,7 @@ h1, h2, h3, h4, h5, h6, figure {
     color: black;
     text-decoration: none;
     display: block;
-    z-index: 2;
+    z-index: 3;
     margin-top: 6px;
     margin-bottom: 6px;
 }
